@@ -33,7 +33,7 @@ header{
     justify-content: top left;
     background-color: transparent;
     margin: 0px;
-    padding: 0px;
+    padding: -20px;
     z-index: 10;
 }
 
@@ -62,7 +62,7 @@ header{
 a {
     text-decoration: none;
     font-family: courier, serif;
-    text-decoration-color: black;
+    color: black;
 
 }
 
@@ -89,9 +89,16 @@ content: "    ";
   }
 }
 
+@media (max-width: 575px) {
+  .button-52 {
+    padding: 3px 0px 3px;
+    font-size: 10pt;
+  }
+}
+
 h2{
     padding-left: 100px;
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 25px;
 }
 
