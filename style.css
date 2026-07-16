@@ -1,8 +1,5 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
+    scroll-behavior: smooth;
     background-color: rgb(250, 190, 220);
     justify-content: center;
     font-family: courier, serif;
@@ -10,7 +7,6 @@ body {
 header{
     display: flex;
     background-color: rgba(255, 133, 194, 0.193);
-    background-position: center;
     padding-top: 50px;
     padding-bottom: 25px;
     width: 100%;
@@ -31,7 +27,6 @@ header{
     position: fixed;
     justify-content: top left;
     background-color: transparent;
-    margin: 0px;
     z-index: 10;
 }
 
@@ -103,15 +98,17 @@ h2{
     padding-top: 50px;
     padding-bottom: 25px;
 }
+.gallery-section{
+
+    align-items: center;
+}
 .gallery {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 95vw;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    width: 90vw;
 }
 
 .bio-pic {
@@ -150,7 +147,7 @@ h2{
 .image-card p {
     display: block;
    opacity: 0.5;
-   margin-left: 0.5rem;
+   margin-left: 5rem;
 }
 
 .image-description {
