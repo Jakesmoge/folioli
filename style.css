@@ -1,16 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     scroll-behavior: smooth;
     background-color: rgb(250, 190, 220);
     justify-content: center;
     font-family: courier, serif;
+    margin: 0px;
 }
 header{
-    display: flex;
+    display: inline-block;
     background-color: rgba(255, 133, 194, 0.193);
-    padding-top: 50px;
     padding-bottom: 25px;
+    padding-top: 75px;
     width: 100%;
     height: 150px;
+}
+h1{
+    font-size: 3vw;
 }
 .home-btn{
   background-color: transparent;
@@ -18,11 +27,13 @@ header{
   cursor: pointer;
   align-items: center;
   justify-content: top left;
+  padding-left: 25px;
+  padding-top: 25px;
 }
 
 .logo-btn-image {
-    width: 75px;
-    height: 75px;
+    width: 8rem;
+    height: 8rem;
     object-fit: contain;
     position: fixed;
     justify-content: top left;
@@ -32,27 +43,31 @@ header{
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     height: 50px;
     width: 90%;
     align-items: center;
     padding-left: 100px;
-    padding-top: 50px;
+}
+.nav{
+    display: inline;
 }
 
 .button-52 {
-  font-size: 2vw;
-  font-weight: 100;
-  letter-spacing: 1px;
-  padding: 1vw;
-  margin: 1vw;
-  outline: 0;
-  border: 1px solid black;
-  cursor: pointer;
-  position: relative;
-  background-color: rgb(255, 255, 1, .1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
+    display: inline;
+    font-size: 2vw;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 1vw;
+    margin: 1vw;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgb(255, 255, 1, .1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
 }
 
 a {
@@ -63,15 +78,16 @@ a {
 }
 
 .button-52:after {
-content: "    ";
-  background-color: #ffed88;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
+    justify-content: space-between;
+    content: "    ";
+    background-color: #ffed88;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 4px;
+    left: 4px;
+    transition: 0.2s;
 }
 
 .button-52:hover:after {
@@ -93,14 +109,14 @@ content: "    ";
 }*/
 
 h2{
-    text-align: right;
-    padding-left: 100px;
+    text-align: center;
     padding-top: 50px;
     padding-bottom: 25px;
 }
 .gallery-section{
-
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 .gallery {
     display: flex;
@@ -164,7 +180,7 @@ h2{
     color: rgb(250, 190, 220);
     padding: 0.4rem 0.6rem;
     border-radius: 0.25rem;
-    font-size: 3vw; 
+    font-size: 4vw; 
     font-width: bold;
     line-height: 1.2;
     opacity: 0%;
@@ -190,7 +206,7 @@ h2{
 
 .contact-info {
     padding: 20vw;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
