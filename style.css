@@ -1,53 +1,45 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body {
     scroll-behavior: smooth;
     background-color: rgb(250, 190, 220);
     justify-content: center;
     font-family: courier, serif;
     margin: 0px;
+    padding: 0px;
 }
 header{
     display: inline-block;
     background-color: rgba(255, 133, 194, 0.193);
-    padding-bottom: 25px;
-    padding-top: 75px;
     width: 100%;
-    height: 150px;
+    height: 15vw;
+    padding: 0;
+    margin: 0;
 }
-h1{
-    font-size: 3vw;
-}
+
 .home-btn{
   background-color: transparent;
   border: none;
   cursor: pointer;
   align-items: center;
   justify-content: top left;
-  padding-left: 25px;
-  padding-top: 25px;
 }
 
 .logo-btn-image {
-    width: 8rem;
-    height: 8rem;
+    width: 10vw;
+    height: 10vw;
     object-fit: contain;
     position: fixed;
     justify-content: top left;
     background-color: transparent;
     z-index: 10;
 }
-
 .navbar {
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     height: 50px;
     width: 90%;
     align-items: center;
-    padding-left: 100px;
+    padding-left: 15vw;
+    padding-top: 5vw;
 }
 .nav{
     display: inline;
@@ -109,9 +101,9 @@ a {
 }*/
 
 h2{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 25px;
+    font-size: 8vw;
+    text-align: right;
+    padding-top: 3vw;
 }
 .gallery-section{
     display: flex;
@@ -163,7 +155,7 @@ h2{
 .image-card p {
     display: block;
    opacity: 0.5;
-   margin-left: 5rem;
+   margin: 1rem;
 }
 
 .image-description {
@@ -205,7 +197,7 @@ h2{
 }
 
 .contact-info {
-    padding: 20vw;
+    padding: 20px;
     margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
@@ -215,7 +207,6 @@ h2{
 @media (max-width: 768px) {
     .image-container {
         column-count: 2;
-        padding: 1rem;
     }
 }
 
