@@ -41,7 +41,7 @@ header{
     width: 90%;
     align-items: center;
     padding-left: 15vw;
-    padding-top: 5vw;
+    padding-top: 3vw;
 }
 .nav{
     display: inline;
@@ -204,6 +204,7 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
 }
 
 @media (max-width: 768px) {
